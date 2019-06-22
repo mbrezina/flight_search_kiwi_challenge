@@ -61,14 +61,17 @@ DPS,HKT,2019-05-11T00:20:00,2019-05-11T04:00:00,PV519,79,2,44
 DPS,HKT,2019-05-11T08:50:00,2019-05-11T12:30:00,PV260,89,1,43
 DPS,BWN,2019-05-12T16:45:00,2019-05-12T19:10:00,PV451,57,1,24
 DPS,BWN,2019-05-11T22:10:00,2019-05-12T00:35:00,PV197,50,1,30
+
 Output
 Output data should be in a format that is suitable for further processing
 Don't make passengers travel trough the same cities in same trip:
 A->B->A->B is not a valid combination
 A->B->A is a valid combination
+
 Solving
 The task has been designed such that it provides a challenge to someone who has only recently familiarized themselves with python and provides a chance to use basic data types and control structures (if, for, etc.). Most people who have been programming in other languages won't have problems solving it and get a chance to try the python syntax.
 The solution should be simple
 We don't expect the solution to be optimized for computational complexity or memory usage (however if it's your thing, you may)
+
 Usage
 Input data will be fed into your program through stdin so it should be possible to run it in command line via a command such as cat input.csv | find_combinations.py. The output of your program will be printed to stdout and any errors will go to stderr.
