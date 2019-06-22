@@ -5,7 +5,7 @@ import click
 
 
 def time(duration):
-    date_object = parser.parse(duratio
+    date_object = parser.parse(duration)
     date_object = datetime.timestamp(date_object)
     return date_object
 
