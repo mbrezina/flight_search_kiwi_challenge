@@ -7,6 +7,7 @@ By solving this task, you will prove to us and yourself, that you are familiar w
 Requirements
 python-2 or 3 (but you know the right choice here ;-) )
 all modules are allowed
+
 Description
 You have data about flights (segments). Your task is to find all combinations of flights for passengers with no bags, one bag or two bags are able to travel, having 1 to 4 hours for each transfer between flights. The columns in table of input data are explained bellow:
 
